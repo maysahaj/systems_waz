@@ -1,0 +1,159 @@
+body{
+    direction: rtl;
+    font-family: 'El Messiri', sans-serif;
+    color: #808080;
+    }
+    /*
+    @font-face {
+        font-family: 'NotoKufiArabic-regular';
+        src: url('../fonts/ArbFONTS-22015-notokufiarabic-regular.ttf');
+        src: local('☺'),  url('../fonts/ArbFONTS-22015-notokufiarabic-regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+        */
+.SystemSection{
+    padding-top:px;
+    padding-bottom:50px;
+    text-align: center;
+    color:#ced4d6;
+    
+}
+.SystemSection .title-sys h5{
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top:40px;
+    color:#000;
+
+
+}
+
+.bg-dark {
+    background-color: #ffffff!important;
+}
+.card{
+    padding: 15px;
+    background: #c9e8c4;
+    border-radius:10px;
+    box-shadow: 4px 4px 4px rgb(248, 233, 246);
+    border: 1px solid #ffff;
+
+}
+.card:hover{
+    border: 0px;
+    transition-duration: 0.3s;
+    -webkit-box-shadow: 2px 8px 40px 1px rgba(0,0,0,0.5);  /* box shadow*/
+    -moz-box-shadow: 2px 8px 40px 1px rgba(0,0,0,0.5);
+    box-shadow: 2px 8px 20px 1px rgba(0,0,0,0.5);
+    background-color:#8dbe85;
+    color: #ffffff;
+}
+.card:hover.card h2 {
+    color: #000;
+}
+.card:hover.card i{
+    color: #c9e8c4;
+}
+
+.card:hover.card .featuresIcon{
+    border: 1px solid #ffffff;
+    
+}
+
+.featuresIcon{
+    font-size:37px;
+    background: #6a9264;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    margin: 0 auto;
+    color:#ffffff;
+    text-align: center;
+    justify-content: center;
+    line-height: 80px;
+    border-radius: 50%;
+    border: 1px solid #6a9264;
+    
+}
+
+.featuresDesc  a h2{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top:15px;
+    color:#6a9264;
+
+
+}
+.featuresDesc  a:hover{
+    text-decoration: none;
+
+}
+.navbar-brand img{
+    width:130px;
+    height: 130px;
+}
+.box-icon .card{
+    padding: 8px 15px;
+    background: #6a9264;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px rgb(248, 233, 246);
+    border: 1px solid #ffff;
+    height: 70px;
+    color:#ffffff;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.box-icon .card  a i{
+    font-size: 25px;
+    color:#ffffff;
+
+}
+.box-icon .card h6{
+    font-size: 15px;
+   
+}
+.box-icon .card:hover{
+    background: #c9e8c4;
+    color:#6a9264;
+    border :2px solid #6a9264;
+    padding: 5px;
+}
+
+.card:hover .card .box-icon{
+    border: 1px solid #131212;
+    
+}
+
+.box-icon .card:hover a i{
+    color: #6a9264;
+    font-size: 18px;
+}
+
+.box-icon .card p{
+    display: none;
+}
+.box-icon .card:hover p{
+    color: #000;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+         
+@media (max-width: 992px) {   /* responsive mobiles and small devicess*/
+ .row1{
+     margin-top:10px;
+ }
+
+}
+
+
+
+
+
+
+
+
